@@ -4,7 +4,8 @@ csv=csv/taxi.csv
 
 ls -lah $csv
 
-cl="clickhouse-client --host toaster.kparc.io"
+#cl="clickhouse-client --host toaster"
+cl="clickhouse-client --host localhost"
 
 $cl --query="DROP TABLE IF EXISTS trips"
 
