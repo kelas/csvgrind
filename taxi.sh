@@ -1,6 +1,6 @@
 #!/bin/sh
 
-csv=csv/taxi.csv
+csv=csv/taxi100m.csv
 
 ls -lah $csv
 
